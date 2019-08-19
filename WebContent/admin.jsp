@@ -18,7 +18,7 @@
     authDomain: "privatec2i-29db8.firebaseapp.com",
     databaseURL: "https://privatec2i-29db8.firebaseio.com",
     projectId: "privatec2i-29db8",
-    storageBucket: "",
+    storageBucket: "",	
     messagingSenderId: "998162121992",
     appId: "1:998162121992:web:d1d6199edc712309"
   };
