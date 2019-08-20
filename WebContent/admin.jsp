@@ -28,18 +28,6 @@
 </head>
 <body>
 
-<script>
-var ref = firebase.database().ref("Temp");
-var query = ref.child("name");
-
-// Get a snapshot containing the matching children from under Films
-query.once("value").then(function(snapshot) {
-      snapshot.forEach(function(childSnapshot) {
-        console.log(childSnapshot.val());
-
-   });
-});
-</script>
 
 
 </body>

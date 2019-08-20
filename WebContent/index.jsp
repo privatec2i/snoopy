@@ -9,6 +9,7 @@
 	<title>Login Page</title>
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-database.js"></script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
 <script>
@@ -27,6 +28,16 @@
 </script>
 	</head>
 	<body>
+	
+	
+<script>
+var ref = firebase.database().ref();
+var query = ref.child("User");
+query.on("value",function(snap){
+	console.log("User",snap.val());
+});
+</script>
+
 		<h3>Welcome to Snoopy World!!</h3>
 		<img style="width:300px;height:300px;" src="resources/images/snoopy.png">
 		<s:form action="letsChat">
