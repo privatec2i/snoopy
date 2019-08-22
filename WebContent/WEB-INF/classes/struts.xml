@@ -16,9 +16,22 @@
 	</action>
 	
 	<action name="sendMessage" class="com.snoopy.actions.MessageAction">
-		
 	</action>
 	
+	<action name="admin">
+		<result>/admin.jsp</result>
+	</action>
+	
+	<action name="SignIn">
+		<result>/SignIn.jsp</result>
+	</action>
+	
+	<action name="SignUp">
+		<result>/SignUp.jsp</result>
+	</action>
+	<action name="test">
+		<result>/test.jsp</result>
+	</action>
 </package>
 
 </struts>

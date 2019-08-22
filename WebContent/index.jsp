@@ -28,8 +28,6 @@
 </script>
 	</head>
 	<body>
-	
-	
 <script>
 var ref = firebase.database().ref();
 var query = ref.child("User");
