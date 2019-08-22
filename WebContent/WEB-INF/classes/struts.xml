@@ -18,6 +18,13 @@
 	<action name="sendMessage" class="com.snoopy.actions.MessageAction">
 	</action>
 	
+	<action name="letsDoodle" class="com.snoopy.actions.LetsDoodleAction">
+		<result name="SUCCESS">/LetsDoodle.jsp</result>
+	</action>
+	
+	<action name="sendDrawPoints" class="com.snoopy.actions.LetsDoodleAction" method="sendDrawPoints">
+	</action>
+	
 	<action name="admin">
 		<result>/admin.jsp</result>
 	</action>
